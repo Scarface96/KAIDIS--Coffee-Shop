@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KAIDIS Coffee</title>
+  <!-- Using a common, reliable Font Awesome CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" xintegrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  
+  <!-- Header / Navigation Bar -->
+  <header>
+    <nav class="navbar section-content">
+      <a href="#home" class="nav-logo">
+        <h1 class="logo-text">☕️ KAIDIS Coffee</h1>
+      </a>
+      <ul class="nav-menu">
+        <button id="menu-close-button"  class="fas fa-times"></button>
+
+        <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+        <li class="nav-item"><a href="#testimonials" class="nav-link">Testimonials</a></li>
+        <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+       <button id="menu-open-button"  class="fas fa-bars"></button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="section-content hero-content">
+        <div class="hero-details">
+          <h2 class="title">Best Coffee</h2>
+          <h3 class="subtitle">
+            Make your day great with our special Coffee!
+          </h3>
+          <p class="description">
+            Experience the rich aroma and bold flavors of our expertly crafted
+            coffee blends — designed to energize your day and delight your
+            senses.
+          </p>
+          <div class="buttons">
+            <a href="#menu" class="button order-now primary-button">Order Now</a>
+            <a href="#contact" class="button contact-us outline-button">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <img
+            src="images/coffee-hero-section.png"
+            alt="Dynamic cup of coffee with splash and beans"
+            class="hero-image"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section section-padding bg-light-pink" id="about">
+      <div class="section-content about-content">
+        <div class="about-image-wrapper">
+          <img
+            src="images/about-image.jpg"
+            alt="Two people enjoying coffee outside a cafe"
+            class="about-image"
+          />
+        </div>
+        <div class="about-details">
+          <h2 class="title primary-title">Our Story</h2>
+          <p class="description dark-text">
+            Founded on a passion for the perfect brew, **KAIDIS Coffee** is more than just a cafe—it's a destination. We meticulously source our beans from sustainable farms worldwide, ensuring ethical practices and superior quality in every cup. Our baristas are artisans, dedicated to crafting an experience that wakes up your senses.
+          </p>
+          <p class="description dark-text">
+            From the bustling morning rush to the quiet evening retreat, we provide a warm, inviting space for the community to connect, create, and recharge.
+          </p>
+          <a href="#contact" class="button primary-button">Visit Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="menu-section section-padding bg-white" id="menu">
+      <div class="section-content menu-content">
+        <h2 class="title secondary-title">Our Menu</h2>
+        <h3 class="subtitle primary-text">Crafted for Every Palate</h3>
+        
+        <div class="menu-grid">
+          
+          <!-- Menu Item 1: Hot Beverages -->
+          <div class="menu-item card-style">
+            <img src="images/hot-beverages.png" alt="A hot latte with heart latte art" class="menu-item-image">
+            <h4>Hot Beverages</h4>
+            <p>Classic espresso, creamy lattes, and artisanal teas.</p>
+            <p class="price-text">From $3.50</p>
+          </div>
+          
+          <!-- Menu Item 2: Cold Beverages -->
+          <div class="menu-item card-style">
+            <img src="images/cold-beverages.png" alt="Iced coffee with whipped cream" class="menu-item-image">
+            <h4>Cold Beverages</h4>
+            <p>Smooth cold brew, iced lattes, and refreshing frappes.</p>
+            <p class="price-text">From $4.50</p>
+          </div>
+          
+          <!-- Menu Item 3: Refreshments -->
+          <div class="menu-item card-style">
+            <img src="images/refreshment.png" alt="Strawberry splash drink with ice and mint" class="menu-item-image">
+            <h4>Fresh Refreshments</h4>
+            <p>Iced fruit teas, lemonades, and sparkling fruit spritzers.</p>
+            <p class="price-text">From $4.00</p>
+          </div>
+          
+          <!-- Menu Item 4: Sweet Desserts -->
+          <div class="menu-item card-style">
+            <img src="images/desserts.png" alt="Dessert bowl with whipped cream and fresh strawberries" class="menu-item-image">
+            <h4>Sweet Desserts</h4>
+            <p>Daily baked pastries, gourmet cookies, and signature sundaes.</p>
+            <p class="price-text">From $3.00</p>
+          </div>
+          
+          <!-- Menu Item 5: Special Combos -->
+          <div class="menu-item card-style">
+            <img src="images/special-combo.png" alt="Special combo meal with burger, hotdog, fries, and milkshake" class="menu-item-image">
+            <h4>Special Combos</h4>
+            <p>Burgers, fries, and wraps for a satisfying midday break.</p>
+            <p class="price-text">From $9.99</p>
+          </div>
+
+          <!-- Menu Item 6: Gourmet Burgers -->
+          <div class="menu-item card-style">
+            <img src="images/burger-frenchfries.png" alt="A huge gourmet cheeseburger with fries" class="menu-item-image">
+            <h4>Gourmet Burgers</h4>
+            <p>Hand-crafted patties with fresh toppings and savory sauces.</p>
+            <p class="price-text">From $7.50</p>
+          </div>
+        </div>
+        <a href="#menu" class="button secondary-button">View Full Menu</a>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section section-padding bg-primary" id="testimonials">
+      <div class="section-content testimonial-content">
+        <h2 class="title secondary-title white-text">What Our Customers Say</h2>
+        <h3 class="subtitle white-text">True Love, One Sip at a Time</h3>
+        
+        <div class="testimonial-grid">
+          
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <img src="images/user-1.jpg" alt="Testimonial user 1" class="user-avatar">
+            <i class="fas fa-quote-left"></i>
+            <p class="quote-text">"The best latte I've ever had. The service is fast and friendly, and the atmosphere is perfect for working or just chilling."</p>
+            <p class="author-text">- Maria P.</p>
+          </div>
+          
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <img src="images/user-2.jpg" alt="Testimonial user 2" class="user-avatar">
+            <i class="fas fa-quote-left"></i>
+            <p class="quote-text">"Their cold brew is my morning lifesaver! Rich, smooth, and never bitter. Highly recommend the caramel infusion."</p>
+            <p class="author-text">- Alex R.</p>
+          </div>
+          
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card hidden-mobile">
+            <img src="images/user-3.jpg" alt="Testimonial user 3" class="user-avatar">
+            <i class="fas fa-quote-left"></i>
+            <p class="quote-text">"KAIDIS is my favorite study spot. Great Wi-Fi, even better pastries, and the staff always remembers my name!"</p>
+            <p class="author-text">- Ben K.</p>
+          </div>
+
+          <!-- Testimonial 4 -->
+          <div class="testimonial-card hidden-mobile">
+            <img src="images/user-4.jpg" alt="Testimonial user 4" class="user-avatar">
+            <i class="fas fa-quote-left"></i>
+            <p class="quote-text">"The seasonal drinks are always creative and delicious. They truly care about quality ingredients."</p>
+            <p class="author-text">- Sarah L.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section section-padding bg-light-pink" id="gallery">
+      <div class="section-content gallery-content">
+        <h2 class="title primary-title">Gallery</h2>
+        <h3 class="subtitle dark-text">A Sneak Peek Inside KAIDIS</h3>
+        
+        <div class="gallery-grid">
+          <img src="images/gallery-1.jpg" alt="Steaming cup of coffee surrounded by coffee beans" />
+          <img src="images/gallery-2.jpg" alt="Plate with sunny-side-up eggs, sausages, and roasted vegetables" />
+          <img src="images/gallery-3.jpg" alt="Three glasses of fresh fruit smoothies" />
+          <img src="images/gallery-4.jpg" alt="Romantic breakfast plate with heart-shaped toast and egg" />
+          <img src="images/gallery-5.jpg" alt="Savory potato and onion dosa with dipping sauces" />
+          <img src="images/gallery-6.jpg" alt="Black coffee with a croissant drizzled with honey/syrup" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section-padding bg-white" id="contact">
+      <div class="section-content contact-content">
+        <h2 class="title secondary-title">Contact Us</h2>
+        <h3 class="subtitle primary-text">Stop By for a Chat and a Coffee</h3>
+        
+        <div class="contact-grid">
+          
+          <!-- Contact Info -->
+          <div class="contact-info">
+            <h4 class="primary-text">Get in Touch</h4>
+            <p><i class="fas fa-map-marker-alt"></i> 123 Coffee Lane, Central City, CA 90210</p>
+            <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+            <p><i class="fas fa-envelope"></i> info@kaidiscoffee.com</p>
+            
+            <h4 class="primary-text hours-title">Hours</h4>
+            <p>Mon - Fri: 8:00 AM - 6:00 PM</p>
+            <p>Sat - Sun: 9:00 AM - 3:00 PM</p>
+          </div>
+          
+          <!-- Contact Form -->
+          <form class="contact-form bg-light-pink">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit" class="button primary-button">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+      <div class="section-content">
+          <p>&copy; 2025 KAIDIS Coffee. All rights reserved.</p>
+          <div class="social-links">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+          </div>
+      </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
