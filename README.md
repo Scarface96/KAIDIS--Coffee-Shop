@@ -320,3 +320,7 @@ Built with ❤️ by [Scarface96](https://github.com/Scarface96)
 ---
 
 **Last Updated:** October 2025
+
+## About This Project
+
+A polished responsive business website created to demonstrate how a local hospitality brand can establish a professional digital presence. It showcases semantic HTML, modern CSS, responsive layouts, JavaScript interactions and conversion-focused page design.
