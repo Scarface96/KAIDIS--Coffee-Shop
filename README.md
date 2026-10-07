@@ -9,6 +9,15 @@ A modern, fully responsive website for **KAIDIS Coffee**—a premium café showc
 
 ---
 
+<p align="center">
+  <img src="docs/images/desktop.jpg" alt="KAIDIS Coffee homepage on desktop" width="72%">
+  &nbsp;
+  <img src="docs/images/mobile.jpg" alt="KAIDIS Coffee homepage on mobile" width="22%">
+</p>
+<p align="center"><sub>Desktop and mobile views</sub></p>
+
+<p align="center"><a href="https://scarface96.github.io/KAIDIS--Coffee-Shop/"><b>View the live site ↗</b></a></p>
+
 ## 🎯 Overview
 
 KAIDIS Coffee is a single-page website designed to attract customers and showcase a premium coffee shop brand. Built with clean, semantic HTML and modern CSS, it provides a smooth user experience across all devices.
@@ -249,12 +258,17 @@ Duplicate a menu item card in the **Menu Section** and update:
 
 ## 📸 Screenshots
 
-| Section | Preview |
-|---------|---------|
-| **Hero** | Full-viewport banner with coffee imagery and CTAs |
-| **Menu** | Grid of 6 product categories with hover effects |
-| **Testimonials** | Customer reviews with circular avatars |
-| **Gallery** | 6 food/beverage photos with zoom hover |
+**Menu** — six product categories with hover effects
+
+<img src="docs/images/menu.jpg" alt="Menu section with six product cards">
+
+**Testimonials** — customer reviews with circular avatars
+
+<img src="docs/images/testimonials.jpg" alt="Testimonials section with four reviews">
+
+**Gallery** — six food and drink photos
+
+<img src="docs/images/gallery.jpg" alt="Gallery section with six photos">
 
 ---
 
